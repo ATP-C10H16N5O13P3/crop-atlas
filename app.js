@@ -510,7 +510,7 @@ async function initializeMap(key) {
       heading: 0,
       roll: 0,
       mode: "HYBRID",
-      defaultUIHidden: false,
+      defaultUIHidden: true,
       gestureHandling: "GREEDY"
     });
 
