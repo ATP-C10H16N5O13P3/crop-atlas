@@ -1,7 +1,7 @@
 "use strict";
 
 // Leave empty to enter your Google key in the app.
-const GOOGLE_MAPS_API_KEY = "";
+const GOOGLE_MAPS_API_KEY = "AIzaSyAcv4gLaZAHIBV2oJtsOsMiBkKMsskDXiY";
 
 const $ = id => document.getElementById(id);
 
