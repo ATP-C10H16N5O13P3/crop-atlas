@@ -1,10 +1,10 @@
-# 🌱 Crop Atlas
+# Crop Atlas
 
 **Crop Atlas** is an interactive 3D spatial agronomic decision-support web application for exploring historical climate, surface soil estimates, and nearby cultivation patterns to screen crop suitability and plan multi-season crop rotations.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Option 1: Run the Full Production App (`src/`)
 Includes the **Overview Dashboard**, **Real-Time Database Autosave**, **Saved Fields & Lab Soil Overrides**, **Planting History Logs**, **CSV Exports**, **User / Guest Mode**, and **Admin Console**.
@@ -48,7 +48,7 @@ Open **`http://localhost:8000`** in your browser.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Interactive 3D Earth Globe (`CesiumJS`) & Location Search (`Photon OSM`):** Click any coordinate on Earth or search by town/address with optional 3D terrain elevation.
 - **FAO EcoCrop Catalog (~2,000+ Plant Records):** Instant startup with 8 embedded starter crops (Rice, Maize, Wheat, Potato, Soybean, Arabica Coffee, Cassava, Sunflower) upgraded seamlessly by the FAO EcoCrop reference catalog.
@@ -63,7 +63,7 @@ Open **`http://localhost:8000`** in your browser.
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - **Administrator & Developer Guide:** See [`docs/admin-developer-guide.md`](docs/admin-developer-guide.md) for the database schema, salted SHA-256 authentication architecture, role provisioning, autosave lifecycle, and CSV export specifications.
 - **Backend Setup Guide:** See [`apps_script/SETUP.md`](apps_script/SETUP.md) for deploying or updating `apps_script/Code.gs`.
